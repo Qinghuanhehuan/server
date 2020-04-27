@@ -23,7 +23,7 @@ const model = mongoose.model("user", schema);
 // 测试数据
 model.updateOne(
   { _id: "5c1a2dce951e9160f0d8573b" },
-  { name: "jerry", cart: [{ pname: "iPhone", price: 666, count: 1 }] },
+  { name: "wwj", cart: [{ pname: "iPhone", price: 666, count: 1 }] },
   { upsert: true },
   (err, r) => {
     console.log('测试数据');
